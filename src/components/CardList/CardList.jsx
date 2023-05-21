@@ -1,3 +1,5 @@
+import propTypes from "prop-types";
+
 import { CardItem } from "../CardItem/CardItem";
 import { CardList } from "./CardList.styled";
 
@@ -21,3 +23,7 @@ const FollowerList = ({ data }) => {
 };
 
 export { FollowerList as CardList };
+
+FollowerList.propTypes = {
+  data: propTypes.array.isRequired,
+};

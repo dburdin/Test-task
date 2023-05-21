@@ -1,3 +1,4 @@
+import propTypes from "prop-types";
 import { useState } from "react";
 
 import {
@@ -71,3 +72,11 @@ const FollowerItem = ({ tweets, followers, avatarUrl, name, id }) => {
 };
 
 export { FollowerItem as CardItem };
+
+FollowerItem.propTypes = {
+  tweets: propTypes.number.isRequired,
+  followers: propTypes.number.isRequired,
+  avatarUrl: propTypes.string.isRequired,
+  name: propTypes.string.isRequired,
+  id: propTypes.string.isRequired,
+};
