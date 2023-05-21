@@ -5,7 +5,7 @@
 
 
 Дане технічне завдання було виконано використовуючи бібліотеку React/ReactHooks.
-Використовувались такі технології/бібліотеки як: axios, react, react-dom, react-loader-spinner, react-scripts, styled-components.
+Використовувались такі технології/бібліотеки як: axios, react, react-dom, react-loader-spinner, react-scripts, styled-components, propTypes.
 
 **Примітка**
 const [arrayLength, setArraylength] = useState() - даний стейт використовувався виключно для того, щоб при умовному рендері не вказувати цифрові значення.
