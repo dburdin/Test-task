@@ -58,7 +58,7 @@ const FollowerItem = ({ tweets, followers, avatarUrl, name, id }) => {
       </MiddleCardPart>
       <LowerCardPart>
         <CardInfo> {tweets} Tweets</CardInfo>
-        <CardInfo> {followerCount.toLocaleString()} Followers</CardInfo>
+        <CardInfo> {followerCount.toLocaleString("en-US")} Followers</CardInfo>
         <CardButton
           type="button"
           onClick={handleFollow}
