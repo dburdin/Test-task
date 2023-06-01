@@ -8,5 +8,5 @@
 Використовувались такі технології/бібліотеки як: axios, react, react-dom, react-loader-spinner, react-scripts, styled-components, propTypes.
 
 **Примітка**
-const [arrayLength, setArraylength] = useState() - даний стейт використовувався виключно для того, щоб при умовному рендері не вказувати цифрові значення.
+const [arrayLength, setArraylength] = useState() - даний стейт використовувався виключно для того, щоб при умовному рендері не вказувати цифрові(хардкорні) значення.
 Даний стейт імітує властивість TotalHits.
