@@ -1,6 +1,6 @@
 {
-  "name": "test-task",
-  "homepage": "https://dburdin.github.io/test-task",
+  "name": "social-media",
+  "homepage": "https://github.com/dburdin/social-media",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
